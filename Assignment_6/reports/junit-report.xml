@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="accessing-opencart-webpage;validate-error-message-in-opencart-website" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/NodeJsAssignment/JSAssignment/Assignment_7/features/opencart.feature">
+            </property>
+        </properties>
+        <testcase name="Given user navigates to &quot;http://10.207.182.111:84/opencart/&quot;" classname="accessing-opencart-webpage;validate-error-message-in-opencart-website" time="0.000452331">
+        </testcase>
+        <testcase name="And user verifies title" classname="accessing-opencart-webpage;validate-error-message-in-opencart-website" time="0.000446877">
+        </testcase>
+        <testcase name="When user enters the invalid login name &quot;r.rohit@gmail.com&quot;" classname="accessing-opencart-webpage;validate-error-message-in-opencart-website" time="0.001964269">
+        </testcase>
+        <testcase name="And enters the invalid password &quot;ROhit1&quot;" classname="accessing-opencart-webpage;validate-error-message-in-opencart-website" time="0.003018746">
+        </testcase>
+        <testcase name="Then click on Login button" classname="accessing-opencart-webpage;validate-error-message-in-opencart-website" time="0.000340371">
+        </testcase>
+        <testcase name="And verify the error message" classname="accessing-opencart-webpage;validate-error-message-in-opencart-website" time="0.000354486">
+        </testcase>
+    </testsuite>
+</testsuites>

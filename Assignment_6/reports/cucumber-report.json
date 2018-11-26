@@ -1,0 +1,112 @@
+[
+  {
+    "elements": [
+      {
+        "id": "accessing-opencart-webpage;validate-error-message-in-opencart-website",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validate error message in opencart website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user navigates to \"http://10.207.182.111:84/opencart/\"",
+            "result": {
+              "status": "passed",
+              "duration": 452331
+            },
+            "line": 4,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\step-definitions\\opencart.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user verifies title",
+            "result": {
+              "status": "passed",
+              "duration": 446877
+            },
+            "line": 5,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\step-definitions\\opencart.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enters the invalid login name \"r.rohit@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 1964269
+            },
+            "line": 6,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\step-definitions\\opencart.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enters the invalid password \"ROhit1\"",
+            "result": {
+              "status": "passed",
+              "duration": 3018746
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\step-definitions\\opencart.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 340371
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\step-definitions\\opencart.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the error message",
+            "result": {
+              "status": "passed",
+              "duration": 354486
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\step-definitions\\opencart.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 24091058643
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\NodeJsAssignment\\JSAssignment\\Assignment_7\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "accessing-opencart-webpage",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Accessing opencart webpage",
+    "tags": [],
+    "uri": "D:/NodeJsAssignment/JSAssignment/Assignment_7/features/opencart.feature"
+  }
+]
